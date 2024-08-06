@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>The World</title>
+</head>
+
+<body>
+    <main>
+        <div class="continentsContainer">
+            <h1>The World - Here you can learn about any country! To begin, please select a continent:</h1>
+            <div class="continents">
+                <div>
+                    <h2>Americas</h2>
+                    <button class="continent" id="americas">
+                        <img src="assets/northAmerica.png" />
+                        <img src="assets/southAmerica.png" />
+                    </button>
+                </div>
+
+                <div>
+                    <h2>Africa</h2>
+                    <button class="continent" id="africa">
+                        <img src="assets/africa.png" />
+                    </button>
+                </div>
+
+                <div>
+                    <h2>Europe</h2>
+                    <button class="continent" id="europe">
+                        <img src="assets/europe.png" />
+                    </button>
+                </div>
+
+                <div>
+                    <h2>Asia</h2>
+                    <button class="continent" id="asia">
+                        <img src="assets/asia.png" />
+                    </button>
+                </div>
+
+                <div>
+                    <h2>Oceania</h2>
+                    <button class="continent" id="oceania">
+                        <img src="assets/oceania.png" />
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="countriesContainer hidden">
+            <h1>Which country do you want to learn about?</h1>
+            <div class="countries">
+            </div>
+            <div class="card modal hidden">
+                <button class="close-modal">x</button>
+            </div>
+        </div>
+        <div class="overlay hidden"></div>
+    </main>
+</body>
+
+</html>
